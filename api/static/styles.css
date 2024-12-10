@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #004080;
+}
+
+#search-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-section input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border: 1px solid #0073e6;
+    border-radius: 4px;
+}
+
+#search-section button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-section button:hover {
+    background-color: #005bb5;
+}
+
+#crud-operations {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #e6f2ff;
+    border-radius: 8px;
+}
+
+#crud-operations input,
+#crud-operations select,
+#crud-operations button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #0073e6;
+    border-radius: 4px;
+}
+
+#book-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #0073e6;
+}
+
+table th {
+    background-color: #0073e6;
+    color: white;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+}
